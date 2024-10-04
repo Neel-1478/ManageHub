@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top:-300px;
+  margin-left: 150px; /* Accounting for the sidebar width */
+  /* width: calc(100% - 400px); */
+}
+
+.searchAddContainer {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.searchAddContainer .searchInput {
+  width: 50%;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #4e5256;
+  border-radius: 5px;
+  background-color: #f2f8ff;
+  margin: 0;
+  height: 50px;
+}
+.customerForm input[type="text"],
+.customerForm input[type="email"],
+.customerForm input[type="number"]{
+  width:50%;
+  height: 50px;
+}
+.addBtn {
+  padding: 10px;
+  background-color: #134074;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:20%;
+
+}
+.addBtn:hover{
+  background-color: white;
+  color:#134074;
+  border:1px solid #134074;
+}
+.customerTable {
+  width: 100%;
+  width:1400px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.customerTable th,
+.customerTable td {
+  padding: 12px;
+  text-align: left;
+}
+
+.customerTable thead th {
+  background-color: #134074;
+  color: white;
+  
+}
+
+.customerTable tbody tr:nth-child(odd) {
+  background-color: #e0f7fa;
+}
+
+.actionsCell {
+  display: flex;
+  align-items: center;
+}
+
+.customerForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #134074; Matching table header color */
+  /* padding: 20px; */
+  border-radius: 10px;
+  width: 1400px /* Covering full window width except sidebar */
+  /* margin-bottom: 20px; */
+}
+
+.formInput {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #979797;
+  border-radius: 5px;
+  background-color: #eef2f6;
+  font-size: 14px;
+
+}
+
+.formButtons {
+  display: flex;
+  align-items: center;
+  width:300px;
+  margin-bottom: 10px;
+}
+
+.submitBtn, .closeBtn {
+  padding: 10px;
+  background-color: #134074;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submitBtn:hover, .closeBtn:hover {
+  background-color: white;
+  color: #134074;
+  border: 1px solid #134074;
+}

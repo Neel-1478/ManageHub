@@ -1,0 +1,166 @@
+/* General container styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 100%;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-top: -300px;
+   
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header input.searchBar {
+    width: 60%;
+    padding: px;
+    font-size: 15px;
+    border: 2px solid #4e5256;
+    border-radius: 5px;
+    margin:0;
+    margin-right: 10px;
+    background-color: #f2f8ff;
+
+}
+
+.searchBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.searchBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Filter dropdown styles */
+.filterDropdown {
+    width:27%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #4e5256;
+    border-radius: 5px;
+    background-color: #dfe8f1;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.createBtn {
+    padding: 8px;
+    background-color: #134074;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width:13%;
+    margin:4.5px;
+    height: 42px;
+    margin-top: 10px;
+}
+
+.createBtn:hover {
+    background-color: white;
+    color: #134074;
+    border: 1px solid #134074;
+}
+
+/* User icon */
+.userIcon {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table styles */
+.inventoryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.inventoryTable th, .inventoryTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+.inventoryTable th {
+    background-color: #134074;
+    color: white;
+    
+}
+.thead tr th{
+    background-color: #134074;
+    color:aliceblue;
+    border: none;
+}
+
+.tbody tr td{
+    border: none;
+}
+.tbody tr:nth-child(odd){
+    background-color: #e0f7fa;
+}
+
+
+
+/* Total products */
+.productCount {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Form styles */
+.addItemForm{
+    display: flex;
+ 
+}
+.addItemForm input {
+    padding: 8px;
+    margin: 5px;
+    border: 2px solid #979797;
+    border-radius: 5px;
+    background-color: #eef2f6;
+    font-size: 14px;
+    width:250px;
+}
+
+.addItemForm button {
+    padding: 8px;
+    background-color: #134074;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width:50%;
+    margin:4.5px;
+}
+
+.addItemForm button:hover {
+    background-color: white;
+    color:#134074;
+    border:1px solid #134074;
+}

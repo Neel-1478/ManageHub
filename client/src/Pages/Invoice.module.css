@@ -1,0 +1,393 @@
+body {
+    background-color: #f7fafc;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainContainer{
+    margin-top: 100vh;
+    background-color: rgb(243, 243, 243);
+    padding: 1.5rem;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+.inputGroup input{
+    display: block;
+    width: 100%;
+    margin-top: 0.55rem;
+    background-color: #e5e7e8;
+    color: #4a5568;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    border-radius: 2px;
+    border: none;
+    height: 40px;
+ 
+}
+.container1 .container h2{
+    display: flex;
+    gap:0.5rem;
+    align-items: center;
+}
+.itemFlex{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.itemFlex h2{
+    display: flex;
+    align-items: center;
+    gap:0.4rem
+}
+.itemFlex p{
+    background-color: #bfa5f6;
+    color:#7a4ed7;
+    padding: 0.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 0.375rem;
+    width:400px;
+}
+.container3{
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 0.375rem;
+    width:500px;
+}.container4{
+    width:70%;
+    padding:1.5rem ;
+}
+
+.containerItem{
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 0.375rem;
+    width:840px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+
+    
+    
+}
+.fa-trash-can{
+    cursor: pointer;
+}
+.addItem{
+    display: flex;
+    justify-content:space-between;
+}
+.addItem button{
+    background: none;
+    color:rgb(113, 40, 196);
+    gap:0.2rem;
+    cursor: pointer;
+    width:20%;
+    
+}
+
+.btnCheck+.btn:hover{
+    background: #ff7b43;
+}
+.itemTax{
+    display: flex;
+    gap:4rem;
+    margin-right: 4.2rem;
+    align-items: center;
+}
+.totalTax{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+.totalTax label span, .totalAfterTax1{
+    color: #6d33ef;
+    font: bold;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.finalTax{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4rem;
+    margin-right: 4.2rem;
+}
+.shipmentCode{
+    display: flex;
+    justify-content:flex-start;
+    gap:4rem;
+}
+.container3 input{
+    width:97%;
+}
+.shipmentCode input{
+    width:100%;
+}
+.paymentBank{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-top: 10px;
+   
+}
+.paymentBank input{
+    width: 250px;
+
+}
+.currencyCode{
+    display: flex;
+    justify-content: flex-start;
+    gap:4.2rem;
+}
+.textarea{
+    height:96px;
+}
+.container5{
+   
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    margin-left: 1.2rem;
+    width:800px;
+    background-color: rgb(249, 228, 230);
+}
+.container5 p{
+    font-size: 13px;
+    margin: 0;
+}
+.shipto{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+ 
+}
+.shipto p{
+    color: #6d33ef;
+    padding-top: 1rem;
+}
+h2 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #1a202c;
+}
+.mt-4 {
+    margin-top: 1rem;
+}
+label {
+    display: block;
+    font-size: 0.875rem;
+    color: #4a5568;
+}
+.phonesms{
+    display: flex;
+    gap:2rem;
+}
+.phonesms div{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    width:31%;
+}
+.phone1{
+    width:70%;
+}
+input, select, textarea {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    background-color: #e5e7e8;
+    color: #4a5568;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: none;
+}
+.inlineFlex {
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.formRadio, .formCheckbox {
+    margin-right: 0.5rem;
+    width: 15px;
+
+}
+.text-sm {
+    font-size: 0.875rem;
+}
+.text-gray-700 {
+    color: #4a5568;
+    
+}
+.text-gray-900 {
+    color: #1a202c;
+}
+.bg-gray-200 {
+    background-color: #edf2f7;
+}
+.rounded-md {
+    border-radius: 0.375rem;
+}
+table {
+    width: 100%;
+    margin-top: 1rem;
+}
+th, td {
+    text-align: left;
+    padding: 0.5rem;
+}
+th {
+    color: #4a5568;
+    font-size: 0.875rem;
+    
+}
+.theadInvoice{
+    background-color: #f6f8f9;
+    border-radius: 10px;
+    
+}
+tbody input{
+    width:70%;
+    border-radius: 2px;
+  
+}
+.itemQuantity{
+    width:50%;
+}
+button {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: none;
+    background-color: #6d33ef;
+    color: white;
+    float: left;
+}
+.textWhite {
+    color: white;
+}
+.submit{
+    padding: 1.5rem;
+    
+}
+.pay{
+    background-color: #6d33ef;
+}
+
+/* toggle btn 
+*/
+.switch {
+    --button-width: 3.5em;
+    --button-height: 2em;
+    --toggle-diameter: 1.5em;
+    --button-toggle-offset: calc((var(--button-height) - var(--toggle-diameter)) / 2);
+    --toggle-shadow-offset: 10px;
+    --toggle-wider: 3em;
+    --color-grey: #cccccc;
+    --color-green: #4296f4;
+   }
+   
+   .slider {
+    display: inline-block;
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: var(--color-grey);
+    border-radius: calc(var(--button-height) / 2);
+    position: relative;
+    transition: 0.3s all ease-in-out;
+   }
+   
+   .slider::after {
+    content: "";
+    display: inline-block;
+    width: var(--toggle-diameter);
+    height: var(--toggle-diameter);
+    background-color: #fff;
+    border-radius: calc(var(--toggle-diameter) / 2);
+    position: absolute;
+    top: var(--button-toggle-offset);
+    transform: translateX(var(--button-toggle-offset));
+    box-shadow: var(--toggle-shadow-offset) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+    transition: 0.3s all ease-in-out;
+   }
+   
+   .switch input[type="checkbox"]:checked + .slider {
+    background-color: var(--color-green);
+   }
+   
+   .switch input[type="checkbox"]:checked + .slider::after {
+    transform: translateX(calc(var(--button-width) - var(--toggle-diameter) - var(--button-toggle-offset)));
+    box-shadow: calc(var(--toggle-shadow-offset) * -1) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+   }
+   
+   .switch input[type="checkbox"] {
+    display: none;
+   }
+   
+   .switch input[type="checkbox"]:active + .slider::after {
+    width: var(--toggle-wider);
+   }
+   
+   .switch input[type="checkbox"]:checked:active + .slider::after {
+    transform: translateX(calc(var(--button-width) - var(--toggle-wider) - var(--button-toggle-offset)));
+   }
+.save{
+    display: flex;
+    gap:0.7rem;
+    line-height: 7vh;
+}   
+.switch{
+    line-height: 9vh;
+}
+.btnGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btnCheck {
+    display: none; /* Hide actual radio buttons */
+  }
+  
+  .pay {
+    background-color: #eee;
+    color: #000;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .btnCheck:checked + .pay {
+    background-color: #6d33ef; /* Active state */
+    color: white;
+  }
+  
+  .btnGroup label {
+    flex: 1;
+    text-align: center;
+    margin: 0 5px;
+  }
+  

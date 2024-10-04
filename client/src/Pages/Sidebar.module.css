@@ -1,0 +1,141 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f9fafc;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Stack logo and brand name */
+  align-items: center; /* Center align */
+  width: 50px;
+}
+
+.logo img {
+  width: 50px;
+}
+.logoSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+}
+.brandName {
+  font-size: 1.5em; /* Adjust brand name size */
+  font-weight: bold; /* Make the brand name bold */
+  color: #5b21b6; /* Optional: color to match active link color */
+  margin-top: 10px; /* Space between logo and name */
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  margin-top: auto; /* Push to bottom of sidebar */
+  margin-bottom: 20px; /* Space below user section */
+}
+
+.userAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px; /* Space between avatar and text */
+}
+
+.workspace {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navLinks {
+  width: 100%;
+  padding: 0;
+  flex: 1; /* Allow navLinks to take available space */
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.navItem i {
+  margin-right: 10px;
+}
+
+.navItem:hover {
+  background-color: #e5e7eb;
+  color: #5b21b6; /* Purple highlight on hover */
+}
+
+.navItem.active {
+  color: #5b21b6;
+  font-weight: bold;
+}
+
+.navItem.active:hover {
+  background-color: #f3f4f6;
+}
+
+.dropdownToggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  padding-left: 20px; /* Adjust as needed for indentation */
+  display: block; /* Ensure it's displayed as a block */
+}
+
+.dropdownItem {
+  display: block; /* Ensure links are block elements */
+  padding: 5px 0; /* Add some vertical padding */
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+}
+
+.dropdownItem:hover {
+  color: #007BFF; /* Change color on hover */
+}
+
+/* New styles for user profile section */
+.profile {
+  display: flex;
+  align-items: center; 
+  gap:10px;/* Center profile icon and text vertically */
+}
+.profile i{
+  font-size: 30px;
+}
+.profileInfo {
+  display: flex;
+  flex-direction: column; /* Stack name and email */
+}
+
+.userName {
+  font-weight: bold; /* Make the user's name bold */
+}
+
+.userEmail {
+  font-size: 0.9em; /* Adjust email size */
+  color: gray; /* Optional: change color of the email */
+}
+.navItem.active {
+  color: #5b21b6; /* Active link color */
+  font-weight: bold; /* Make active link bold */
+  background-color: #e5e7eb; /* Optional: background for active link */
+}
